@@ -1,3 +1,4 @@
+#Basic python code for reading and writing a file
 f = open("C:\\Users\Jack Sparrow\Input\Tesla.txt","r");
 message = f.read()
 list1 = message.split(".")
