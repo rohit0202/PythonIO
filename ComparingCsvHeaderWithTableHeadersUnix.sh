@@ -1,3 +1,6 @@
+#Purpose : This script comapres the header of a csv with the header of the table and writes the header comparison remarks alongwith record count of csv file and record count of header in a final csv file.
+#Method to call the script : sh script_name /hdfs/app/input_csv.csv database_name.table_name
+
 echo "Address of csv : $1"
 echo "Name of table : $2"
 
